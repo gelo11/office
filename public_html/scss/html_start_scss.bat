@@ -1,0 +1,1 @@
+sass --watch style.scss:../html/css/style.css --style compact --cache-location .cache

@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Office</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <nav>
+                        <ul>
+                            <li><a href="#">GRS Company</a></li>
+                            <li><a href="#">GRS Finance</a></li>
+                            <li><a href="#">Форум GRS</a></li>
+                            <li><a href="#">GRS Блог</a></li>
+                            <li><a href="#">Благотворительность</a></li>
+                            <li><a href="#">Канал GRS</a></li>
+                        </ul>
+                    </nav>
+                    <div class="profile">
+                        <div class="total-msg">23</div>
+                        <div class="name"><a href="#">Кияниченко Денис</a></div>
+                        <div class="logout"><a href="#"></a></div>
+                    </div>
+                    <div class="cart">
+                        <div class="lbl">В корзине</div>
+                        <div class="total-pr">8 продуктов</div>
+                        <div class="sign"> = </div>
+                        <div class="total">287 CV</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="logo"><a href="/"><img src="img/i28.png" alt="" ></a></div>
+                <div class="top-client">
+                    <div class="level0">
+                        <h4>Кияниченко Денис</h4>
+                        <div class="level">Квалификации нет</div>
+                        <p>Следующая квалификация — &laquo;Менеджер продаж&raquo;</p>
+                        <table>
+                            <tr>
+                                <td>Собственных</td>
+                                <td>400 cv <span class="red"> -100 cv</span></td>
+                            </tr>
+                            <tr>
+                                <td>Клиентских</td>
+                                <td>400 cv <span class="red"> -100 cv</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="top-stat">
+                    <h4>
+                        статистика регистраций
+                        <span class="ask"></span>
+                    </h4>
+                    <div class="calendar">
+                        <img src="img/cal.png" alt="" >
+                    </div>
+                    <div class="start-date">05.04</div>
+                    <div class="end-date">12.04</div>
+                </div>
+                <div class="top-balance">
+                    <h4>баланс</h4>
+                    <table>
+                        <tr>
+                            <td colspan="3"><p>на 05.04</p></td>
+                        </tr>
+                        <tr>
+                            <td><strong>&#x20bd;</strong></td>
+                            <td>
+                                <p class="bonus">&nbsp;</p>
+                                <span class="coin">1</span>
+                                <span>212 600</span>
+                                <sup class="plus">+ 3 600</sup>
+                            </td>
+                            <td>
+                                <div class="coins trans"><span class="coin">1</span><span class="coin">2</span><span class="coin">3</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>&#8372;</strong></td>
+                            <td>
+                                <p class="bonus">% 150 240 бонусы</p>
+                                <span class="coin">1</span>
+                                <span>165</span>
+                                <sup class="minus">- 600</sup>
+                            </td>
+                            <td>
+                                <div class="coins"><span class="coin">1</span><span class="coin">2</span><span class="coin">3</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>&#8364;</strong></td>
+                            <td>
+                                <p class="bonus">&nbsp;</p>
+                                <span class="coin empty">&nbsp;</span>
+                                <span>12</span>
+                                <sup class="plus">+ 8</sup>
+                            </td>
+                            <td>
+                                <div class="coins trans"><span class="coin">1</span><span class="coin">2</span><span class="coin">3</span></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="top-profit">
+                    <h4>планируемый доход</h4>
+                    <table>
+                        <tr>
+                            <td><small>ч/з 1 нед.</small></td>
+                            <td><small>ч/з 2 нед.</small></td>
+                            <td><small>ч/з 3 нед.</small></td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>1000</td>
+                            <td>2500</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>150</td>
+                            <td>1050</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>30</td>
+                            <td>300</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--top-->
+        <div class="container">
+            <div class="row">
+                <ul class="nav-second">
+                    <li>
+                        <div>
+                            <a href="genealogy.html">
+                                <img src="img/i9.png" alt="">
+                                <br>
+                                <span>генеалогия</span>
+                            </a>
+                        </div>    
+                        <p><a href="#">Бинарная</a></p>
+                        <p><a href="#">Линейная</a>
+
+                    </li>
+                    <li>
+                        <div>
+                            <a href="orders.html">
+                                <img src="img/i8.png" alt="">
+                                <br>
+                                <span>заказы</span>
+                            </a>
+                        </div>
+                        <p><a href="orders.html">Мои заказы</a></p>
+                        <p><a href="orders2.html">Заказы личной группы</a></p>
+                        <p><a href="order.html">Новый заказ</a></p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="history.html">
+                                <img src="img/i7.png" alt="">
+                                <br>
+                                <span>вознаграждения</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="documents.html">
+                                <img src="img/i6.png" alt="">
+                                <br>
+                                <span>документы</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="clients.html">
+                                <img src="img/i5.png" alt="">
+                                <br>
+                                <span>клиенты</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="statistics.html">
+                                <img src="img/i4.png" alt="">
+                                <br>
+                                <span>статистика</span>
+                            </a>
+                        </div>
+                        <p><a href="#">Моя работа</a></p>
+                        <p><a href="#">Работа моей группы</a></p>
+                        <p><a href="#">Работа моего офиса</a></p>
+                    </li>
+                    <li class="grs-fin">
+                        <div>
+                            <a href="#">
+                                <img src="img/i3.png" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--nav-second-->
+        <div class="container">
+            <main>
+                <div class="main-title">
+                    <h2>Клиенты</h2>
+                </div>
+                <div class="filter-wrap">
+                    <div class="type-select"><a href="#" class="bordered">по алфавиту</a>
+                        <div class="drop">
+                            <p class="drop-close"><a href="#" class="bordered">по алфавиту</a></p>
+                            <div class="in">
+                                <ul>
+                                    <li><a href="#" class="up">по дате работы</a></li>
+                                    <li><a href="#" class="up">по сумме приобретений за месяц</a></li>
+                                    <li><a href="#" class="up">по общей сумме приобретений</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-select">Новый клиент 
+                        <select name="dfds" id="dfds" class="red-select">
+                            <option value="1">с созданием аккаунта</option>
+                            <option value="2">без создания аккаунта</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="content">
+                        <div class="cl-block">
+                            <table>
+                                <tr>
+                                    <td><div class="img-proc"><strong>10</strong>%</div></td>
+                                    <td>
+                                        <p class="up"><a href="#"><strong>пивоварова надежда</strong></a>   <a href="#"><img src="img/i90.png" alt=""></a></p>
+                                        <p>Возраст: <span class="blue">24</span><br>Начало работы: 14.10.2010<br><strong>Тула</strong></p>
+                                    </td>
+                                    <td>
+                                        <div class="table-wrap">
+                                            <table class="simple-dash">
+                                            <tr>
+                                                <th></th>
+                                                <th>Текущий месяц</th>
+                                                <th>За все время</th>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Сумма приобретений:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Мой доход:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>До скидки 20%</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="cl-data">
+                                            <a href="#" class="sets"><img src="img/i87.png" alt="" /></a>
+                                            <div class="cred">
+                                                Аккредитован: <div class="cred-ic"><img src="img/i91.png" alt="" /></div>
+                                            </div>
+                                            <p class="grey">Приглашенных: 8 лично, 5 в группе.<br><span class="orange2">Приглашен мной</span></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/i95.png" alt="" /></td>
+                                    <td><a href="#" class="bordered"><small>добавить комментарий</small></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--2-->
+                        <div class="cl-block">
+                            <table>
+                                <tr>
+                                    <td><div class="img-proc"><strong>20</strong>%</div></td>
+                                    <td>
+                                        <p class="up"><a href="#"><strong>великовозрастная светлана</strong></a>   <a href="#"><img src="img/i90.png" alt=""></a></p>
+                                        <p>Возраст: <span class="blue">42</span><br>Начало работы: 14.10.2010<br><strong>Петропавловск-Камчатский</strong></p>
+                                    </td>
+                                    <td>
+                                        <div class="table-wrap">
+                                            <table class="simple-dash">
+                                            <tr>
+                                                <th></th>
+                                                <th>Текущий месяц</th>
+                                                <th>За все время</th>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Сумма приобретений:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Мой доход:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>До скидки 20%</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="cl-data">
+                                            <a href="#" class="sets"><img src="img/i87.png" alt="" /></a>
+                                            <div class="cred">
+                                                Аккредитован: <div class="cred-ic"><img src="img/i91.png" alt="" /></div>
+                                            </div>
+                                            <p class="grey">Приглашенных: 3 лично, 3 в группе.<br>Пригласитель: <a href="#" class="bordered">Третьих Александра</a></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">
+                                        <div class="comment">
+                                            <p>Мы познакомились с ней в опере,- в то время, Когда Филина пела полонез. И я с тех пор - в очарованья дреме, С тех пор она - в рядах моих принцесс. А я в ее цветовом тоне.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/i95.png" alt="" /></td>
+                                    <td><a href="#" class="bordered"><small>добавить комментарий</small></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="cl-block">
+                            <table>
+                                <tr>
+                                    <td><div class="img-proc"><strong>10</strong>%</div></td>
+                                    <td>
+                                        <p class="up"><a href="#"><strong>пивоварова надежда</strong></a>   <a href="#"><img src="img/i90.png" alt=""></a></p>
+                                        <p>Возраст: <span class="blue">24</span><br>Начало работы: 14.10.2010<br><strong>Тула</strong></p>
+                                    </td>
+                                    <td>
+                                        <div class="table-wrap">
+                                            <table class="simple-dash">
+                                            <tr>
+                                                <th></th>
+                                                <th>Текущий месяц</th>
+                                                <th>За все время</th>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Сумма приобретений:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Мой доход:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>До скидки 20%</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="cl-data">
+                                            <a href="#" class="sets"><img src="img/i87.png" alt="" /></a>
+                                            <div class="cred">
+                                                Аккредитован: <div class="cred-ic"><img src="img/i91.png" alt="" /></div>
+                                            </div>
+                                            <p class="grey">Приглашенных: 8 лично, 5 в группе.<br><span class="orange2">Приглашен мной</span></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/i95.png" alt="" /></td>
+                                    <td><a href="#" class="bordered"><small>добавить комментарий</small></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--2-->
+                        <div class="cl-block">
+                            <table>
+                                <tr>
+                                    <td><div class="img-proc"><strong>20</strong>%</div></td>
+                                    <td>
+                                        <p class="up"><a href="#"><strong>великовозрастная светлана</strong></a>   <a href="#"><img src="img/i90.png" alt=""></a></p>
+                                        <p>Возраст: <span class="blue">42</span><br>Начало работы: 14.10.2010<br><strong>Петропавловск-Камчатский</strong></p>
+                                    </td>
+                                    <td>
+                                        <div class="table-wrap">
+                                            <table class="simple-dash">
+                                            <tr>
+                                                <th></th>
+                                                <th>Текущий месяц</th>
+                                                <th>За все время</th>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Сумма приобретений:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Мой доход:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>До скидки 20%</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="cl-data">
+                                            <a href="#" class="sets"><img src="img/i87.png" alt="" /></a>
+                                            <div class="cred">
+                                                Аккредитован: <div class="cred-ic"><img src="img/i91.png" alt="" /></div>
+                                            </div>
+                                            <p class="grey">Приглашенных: 3 лично, 3 в группе.<br>Пригласитель: <a href="#" class="bordered">Третьих Александра</a></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">
+                                        <div class="comment">
+                                            <p>Мы познакомились с ней в опере,- в то время, Когда Филина пела полонез. И я с тех пор - в очарованья дреме, С тех пор она - в рядах моих принцесс. А я в ее цветовом тоне.</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/i95.png" alt="" /></td>
+                                    <td><a href="#" class="bordered"><small>добавить комментарий</small></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="cl-block">
+                            <table>
+                                <tr>
+                                    <td><div class="img-proc"><strong>10</strong>%</div></td>
+                                    <td>
+                                        <p class="up"><a href="#"><strong>пивоварова надежда</strong></a>   <a href="#"><img src="img/i90.png" alt=""></a></p>
+                                        <p>Возраст: <span class="blue">24</span><br>Начало работы: 14.10.2010<br><strong>Тула</strong></p>
+                                    </td>
+                                    <td>
+                                        <div class="table-wrap">
+                                            <table class="simple-dash">
+                                            <tr>
+                                                <th></th>
+                                                <th>Текущий месяц</th>
+                                                <th>За все время</th>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Сумма приобретений:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>Мой доход:</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>ГРН</td>
+                                                            <td class="text-right"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr>
+                                                <td><p>До скидки 20%</p></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                                <td><table>
+                                                        <tr>
+                                                            <td class="no-border">РУБ</td>
+                                                            <td class="text-right no-border"><b>6 324 600</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="no-border">ГРН</td>
+                                                            <td class="text-right no-border"><b>24 200</b></td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="cl-data">
+                                            <a href="#" class="sets"><img src="img/i87.png" alt="" /></a>
+                                            <div class="cred">
+                                                Аккредитован: <div class="cred-ic"><img src="img/i91.png" alt="" /></div>
+                                            </div>
+                                            <p class="grey">Приглашенных: 8 лично, 5 в группе.<br><span class="orange2">Приглашен мной</span></p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/i95.png" alt="" /></td>
+                                    <td><a href="#" class="bordered"><small>добавить комментарий</small></a></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="cl-control">
+                            <div class="row">
+                                <div class="span6">
+                                    <a href="#" class="bordered">Показать всех</a>
+                                </div>
+                                <div class="span6">
+                                    <div class="text-right"><a href="#" class="bordered">Следующие 10</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div class="side-in">
+                            <div class="search">
+                                <form action="" method="post"><input type="text" placeholder="ФИО, ID, город, продукт" /><button type="submit" class="btn-success">НАЙТИ</button></form>
+                            </div>
+                            <div class="cl-filter">
+                                <ul>
+                                    <li class="br"><a href="#">Все клиенты</a></li>
+                                    <li class="tr"><a href="#">Первые линии</a></li>
+                                    <li class="gr"><a href="#">Группа клиентов</a></li>
+                                    <li class="sep"></li>
+                                    <li class="tr"><a href="#">Аккредитованные</a></li>
+                                    <li class="br"><a href="#">Неаккредитованные</a></li>
+                                    <li class="sep"></li>
+                                    <li class="br"><a href="#">Приглашенные мной</a></li>
+                                    <li class="tr"><a href="#">Приглашенные другими</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!--main-->
+        <div class="btm">
+            <div class="container">
+                <div class="row">
+                    <div class="blog">
+                        <h2>Блог   <a href="#">Все новости</a></h2>
+                        <ul>
+                            <li><p><strong>28.08.2012</strong></p><a href="#">ВНИМАНИЕ! НОВИНКА</a></li>
+                            <li><p><strong>27.08.2012</strong></p><a href="#">SEVEN DAY Улучшенная технология</a></li>
+                            <li><p><strong>11.11.2011</strong></p><a href="#">Решение Лидерского совета</a></li>
+                            <li><p><strong>11.11.2011</strong></p><a href="#">Решение Лидерского совета</a></li>
+                        </ul>
+                    </div>
+                    <div class="forum">
+                        <p><a href="#">Лифтинг система</a> в <a href="#">Уход за лицом</a> Сегодня, 08:06</p>
+                        <p><a href="#">Лифтинг система</a> в <a href="#">Уход за лицом</a> Сегодня, 08:06</p>
+                        <p><a href="#">Лифтинг система</a> в <a href="#">Уход за лицом</a> Сегодня, 08:06</p>
+                    </div>
+                    <div class="review-wrap">
+                        <div class="review">
+                            <h3>Федосеева Ирина</h3>
+                            <div class="desc">
+                                <p>Недавно была в одном из офисов Волгограда, на презентации GRS. Красивый офис, располагающая атмосфера, приветливый персонал.</p>
+                                <a href="#">Читать дальше</a>
+                            </div>
+                        </div>
+                        <a href="#" class="prev">&larr;&nbsp;Предыдущая история</a>
+                        <a href="#" class="next">Следующая история&nbsp;&rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--btm-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="f-l">
+                        <p>630132, г. Новосибирск, ул. Красноярская, 35, оф. 808</p>
+                        <p>Клиентская служба: client@grscompany.com</p>
+                        <p>Сообщение администрации</p>
+                    </div>
+                    <div class="f-r">
+                        <ul>
+                            <li><a href="#">Генеалогия</a></li>
+                            <li><a href="#">Бинарная</a></li>
+                            <li><a href="#">Линейная</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Заказы</a></li>
+                            <li><a href="#">Заказы личной группы</a></li>
+                            <li><a href="#">Мои заказы</a></li>
+                            <li><a href="#">Новый заказ</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Вывод средств</a></li>
+                            <li><a href="#">Вознаграждения</a></li>
+                            <li><a href="#">Документы</a></li>
+                            <li><a href="#">Клиенты</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Статистика</a></li>
+                            <li><a href="#">Моя работа</a></li>
+                            <li><a href="#">Работа моей группы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--footer-->
+    </body>
+</html>
